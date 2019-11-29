@@ -1,0 +1,224 @@
+/* Author
+
+Name: Nur Mohammad Mamun;
+Email : king.mamun007@gmail.com;
+
+*/
+
+
+/*
+
+=====Index=====
+
+1. Header
+2. HOME
+3. HOW IT WORKS
+4. DISCOVER A PROJECT
+5. BLOG
+6. FIND OUT MORE
+7. Footer
+
+*/
+
+
+/*Global CSS*/
+h1 {
+	
+}
+
+h2 {
+	
+}
+
+h6 {
+	
+}
+
+p {
+	
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&display=swap');
+
+.btn {
+	
+}
+
+.btn:hover {
+	background-color: lightblue;
+	transition: 0.5s ease;
+}
+
+.img-center {
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* ===Theme CSS=== */
+
+
+/* Header section starts */
+.navbar {
+    background-color: #fff!important;
+    padding: 25px 0px;
+}
+
+.nav-link {
+	color: #adadad!important;
+}
+/* Header section ends */
+
+
+/*Home section starts*/
+.hero {
+	background: url(../img/banner.png)no-repeat;
+	background-size: cover;
+}
+
+.hero h2 {
+	font-size: 50px;
+	text-align: center;
+	color: #9e9191;
+	padding-top: 165px;
+}
+
+.hero h3 {
+	font-size: 35px;
+	text-align: center;
+	color: #9e9191;
+	padding-top: 25px;
+}
+
+.btn {
+    padding: 25px 35px;
+    background-color: #99c50a;
+    display: block;
+    margin: 55px auto 165px;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 10px;
+}
+/*Home section ends*/
+
+
+/*HOW IT WORKS section starts*/
+.hero-two span {
+    margin: 35px;
+    display: block;
+}
+
+.hero-two img {
+    margin: 0 auto 50px;
+}
+
+.hero-two h2{
+	font-size: 31px;
+	text-align: center;
+}
+
+.hero-two p {
+	color: #bababa;
+	font-size: 19px;
+	text-align: center;
+}
+/*HOW IT WORKS section ends*/
+
+
+/*DISCOVER A PROJECT section starts*/
+.discover {
+	position: relative;
+}
+
+.discover h4 {
+	padding: 45px 0px 35px;
+}
+
+.discover p {
+
+}
+
+.btn-one {
+	padding: 20px 10px;
+    background-color: #26a6d1;
+    display: block;
+    margin: 30px 0px;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-one:hover {
+	background-color: #add136;
+	transition: 0.5s ease;
+}
+
+.btn-two {
+	padding: 20px 10px;
+    background-color: #add136;
+    display: block;
+    margin: 30px 0px;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-two:hover {
+	background-color: #26a6d1;
+	transition: 0.5s ease;
+}
+
+.discover-img {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.sofa {
+	background-color: #e2f8ff;
+}
+
+.wallet {
+	background-color: #f5f9eb;
+}
+/*DISCOVER A PROJECT section ends*/
+
+
+/*BLOG section starts*/
+.blog {
+	position: relative;
+}
+
+.blog h2 {
+	padding: 0px 0px 30px;
+}
+
+.blog p {
+	margin: 50px 0px;
+}
+
+.blog button {
+    padding: 10px 10px;
+    border: 1px solid #161616;
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    border-radius: 10px;
+}
+
+
+
+/*Media Query starts*/
+@media (max-width: 500px;) {
+	nav img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.nav-item {
+	margin: 10px 0px;
+	}
+
+}
